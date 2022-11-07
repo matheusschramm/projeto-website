@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ex06</title>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+
+</head>
+<script>
+    function mudaImagem(nomeImagem){
+        console.log("imagem=>" + nomeImagem);
+    document.querySelector("#imagemMaior").src = "imagens/" + nomeImagem + ".jpg";
+    }
+</script>
+<body>
+    <div>
+
+    </div class="miniaturas">
+<img onclick="mudaImagem('criança')" src="imagens/criança.jpg" alt="" width="25" height="25">
+<img onclick="mudaImagem('adulto')" src="imagens/adulto.jpg" alt="" width="25" height="25">
+<img onclick="mudaImagem('casa')" src="imagens/casa.jpg" alt="" width="25" height="25">
+</div>
+
+<div >
+<img id="imagemMaior" src="imagens/casa.jpg" alt="" width="84" height="84">
+</div>
+</div>
+</body>
+
+</html>
+

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex03</title>
+</head>
+<script>
+function mostrar(){
+    document.querySelector("p"). style.display = "block";
+
+}
+
+function ocultar(){
+    document.querySelector("p"). style.display = "none";
+}
+</script>
+<body onload="ocultar()">
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, dignissimos?
+
+
+    </p>
+        <button onclick="mostrar()"> mostrar</button>
+        <button onclick="ocultar()"> ocultar</button>
+</body>
+</html>
